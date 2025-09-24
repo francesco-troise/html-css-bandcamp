@@ -1,0 +1,60 @@
+.debug{
+
+    header{
+        background-color: #222222;
+        height: 100px;
+        padding-top: 15px;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        
+
+        .top-header{
+            background-color: red;
+            height: 35px;
+            
+
+        }
+
+        .bottom-header{
+            background-color: orange;
+            height: 35px;
+            
+        }
+    }
+
+    main{
+        background-color: #222222;
+        height: 690px;
+
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body{
+    background-color: #222222;
+}*/
+
+.container{
+    width: 65%;
+}
+
+.container-sm{
+    width: 29%;
+}
+
+    
