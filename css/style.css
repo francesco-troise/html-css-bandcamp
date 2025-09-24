@@ -1,45 +1,82 @@
-.debug{
+/*DEBUG MODE*/
+.debug {
 
-    header{
+    header {
         background-color: #222222;
         height: 100px;
         padding-top: 15px;
         padding-left: 7.5px;
         padding-right: 7.5px;
-        
 
-        .top-header{
+        .top-header {
             background-color: red;
             height: 35px;
-            
-
         }
 
-        .bottom-header{
+        .bottom-header {
             background-color: orange;
             height: 35px;
-            
         }
     }
 
-    main{
+    main {
         background-color: #222222;
         height: 690px;
+        background-color: #222222;
+        padding-top: 6px;
+        padding-left: 6px;
+        padding-right: 6px;
 
+        .main-view {
+            display: flex;
 
+            .container {
+                background-color: yellow;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding-top: 15px;
+                
+                > .col-album:not(:nth-last-child(-n+3)){
+                    width: 230px;
+                    height: 190px;
+                    background-color: blueviolet;
+                }
+            }
+
+            .container-sm {
+                background-color: green;
+                height: 637px;
+                padding: 5px;
+
+                .col-preview {
+                    height: 100%;
+
+                    .screen-preview {
+                        background-color: pink;
+                        height: 65%;
+                    }
+
+                    .info-box {
+                        background-color: aqua;
+                        height: 35%;
+                    }
+                }
+            }
+        }
     }
-
-
-
-
-
-
 }
+/*END DEBUG MODE*/
 
 
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -49,12 +86,11 @@
     background-color: #222222;
 }*/
 
-.container{
+.container {
     width: 65%;
+    height: 86.2vh;
 }
 
-.container-sm{
+.container-sm {
     width: 29%;
 }
-
-    
