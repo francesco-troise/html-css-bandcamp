@@ -57,15 +57,19 @@
                 .col-preview {
                     height: 100%;
 
-                    .screen-preview {
-                        background-color: pink;
-                        height: 65%;
-                    }
+                    .card-preview{
+                        height: 100%;
 
-                    .info-box {
-                        background-color: aqua;
-                        height: 35%;
-                    }
+                        .screen-preview {
+                            background-color: pink;
+                            height: 65%;                            
+                        }
+
+                        .info-box {
+                            background-color: aqua;
+                            height: 35%;
+                        }
+                    } 
                 }
             }
         }
@@ -73,8 +77,7 @@
 }
 /*END DEBUG MODE*/
 
-
-
+/*GLOBAL RULES*/
 
 * {
     padding: 0;
@@ -82,9 +85,18 @@
     box-sizing: border-box;
 }
 
-/*body{
-    background-color: #222222;
-}*/
+html{
+    body{
+        height: 100vh;
+        background-color: #222222; 
+        overflow: hidden;
+    }
+    
+
+}
+/*END GLOBAL RULES*/
+
+/*UTILITY*/
 
 .container {
     width: 65%;
@@ -94,3 +106,7 @@
 .container-sm {
     width: 29%;
 }
+
+/*END UTILITY*/
+
+/*HEADER SECTION*/
