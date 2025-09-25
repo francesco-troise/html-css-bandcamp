@@ -1,5 +1,22 @@
 @media screen and (max-width: 744px){
 
+    .main-view{
+        
+        .container{
+
+            .col-album{
+                width: 48%;
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
     .info-box > :nth-child(2){
         font-size: 0;
 

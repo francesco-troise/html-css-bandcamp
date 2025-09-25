@@ -238,7 +238,7 @@ a {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 20px 10px;
+        gap: 40px 10px;
         overflow-y: auto;
         overflow-x: hidden;
 
@@ -354,3 +354,43 @@ aside {
     color: var(--text-white);
     font-weight: bolder;
 }
+
+.released{
+    color: var(--text-white);
+    font-size: 17px;
+}
+
+
+
+.follow{
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+   
+    align-items: center;
+
+    .image-follow{
+        width: 25%;
+        border-radius: 50%;
+    }
+
+    .place{
+        display: flex;
+        flex-direction: column;
+        color: var(--text-white);
+    }
+}
+
+.btn-follow{
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 19px;
+    border: 1px solid white;
+    color: var(--text-white);
+
+    margin-top: 10px;
+}
+
