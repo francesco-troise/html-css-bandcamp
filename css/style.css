@@ -176,4 +176,15 @@ header{
     }    
 }
 
+.right-header{
 
+    .account{
+        display: flex;
+        gap: 20px;
+        
+        a{
+            color: var(--text-white);
+        }
+
+    }
+}
