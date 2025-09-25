@@ -116,8 +116,6 @@ a{
 .container {
     width: 65%;
     height: 86.2vh;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 
 .container-sm {
@@ -222,6 +220,24 @@ a{
 /*END HEADER SECTION*/
 
 /*MAIN SECTION*/
+
+.main-view{
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 25px 10px;
+        padding: 20px 15px 0 30px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        .col-album{
+            width: 24%;
+        }
+    }
+}
+
 
 
 
