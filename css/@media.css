@@ -1,7 +1,7 @@
 @media screen and (max-width: 744px){
 
     .main-view{
-        
+
         .container{
 
             .col-album{
@@ -10,12 +10,6 @@
         }
     }
     
-
-
-
-
-
-
 
     .info-box > :nth-child(2){
         font-size: 0;
@@ -28,5 +22,16 @@
         font-weight: 800;
     }
 
+}
+
+
+@media screen and (max-width: 600px){
+    aside{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
 }
 
