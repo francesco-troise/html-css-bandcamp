@@ -193,6 +193,8 @@ a{
      .search{
         width: 485px;
         position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
 
         .icon{
             color: var(--color-search-top);
@@ -224,6 +226,7 @@ a{
 /*MAIN SECTION*/
 
 .main-view{
+    display: flex;
 
     .container{
         display: flex;
