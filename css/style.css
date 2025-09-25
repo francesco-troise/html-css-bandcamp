@@ -102,8 +102,6 @@ html{
         background-color: var(--bg-color-page); 
         overflow: hidden;
     }
-    
-
 }
 
 a{
@@ -118,6 +116,8 @@ a{
 .container {
     width: 65%;
     height: 86.2vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .container-sm {
@@ -218,5 +218,11 @@ a{
         }
     }    
 }
+
+/*END HEADER SECTION*/
+
+/*MAIN SECTION*/
+
+
 
 
