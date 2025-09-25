@@ -79,6 +79,17 @@
 
 /*GLOBAL RULES*/
 
+
+:root{
+    --bg-color-page: #222222;
+    --bg-search-top: #464646;
+    --color-search-top: #999898;
+    --bg-search-bottom: #3c3c3c;
+    --bg-color-secondary: #2b2b2b;
+    --text-white: #ffffff;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -88,12 +99,18 @@
 html{
     body{
         height: 100vh;
-        background-color: #222222; 
+        background-color: var(--bg-color-page); 
         overflow: hidden;
     }
     
 
 }
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
 /*END GLOBAL RULES*/
 
 /*UTILITY*/
@@ -110,3 +127,53 @@ html{
 /*END UTILITY*/
 
 /*HEADER SECTION*/
+
+header{
+    padding: 5px 30px;
+
+    img{
+        width: 150px;
+    }
+}
+
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.left-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .search{
+        width: 310px;
+        position: relative;
+
+        .icon{
+            color: var(--color-search-top);
+            position: absolute;
+            top: 30%;
+            left: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 7px 0;
+            padding-left: 40px;
+            background-color: var(--bg-search-top);
+            
+
+            &::placeholder {
+                font-weight: bold;
+                font-size: 13px;
+                color: var(--color-search-top);
+            }
+        }
+    }    
+}
+
+
