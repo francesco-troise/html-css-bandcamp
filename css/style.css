@@ -84,7 +84,7 @@
     --bg-color-page: #222222;
     --bg-search-top: #464646;
     --color-search-top: #999898;
-    --bg-search-bottom: #3c3c3c;
+    --bg-search-bot: #3c3c3c;
     --bg-color-secondary: #2b2b2b;
     --text-white: #ffffff;
 }
@@ -128,26 +128,22 @@ a{
 
 /*HEADER SECTION*/
 
-header{
-    padding: 5px 30px;
-
-    img{
-        width: 150px;
-    }
-}
-
 .top-header{
+    padding: 7px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-
 .left-header{
     display: flex;
     align-items: center;
     gap: 20px;
+
+    img{
+            width: 150px;
+        }
 
     .search{
         width: 310px;
@@ -188,3 +184,38 @@ header{
 
     }
 }
+
+
+.bottom-header{
+    padding: 7px 30px;
+    background-color: var(--bg-color-secondary);
+
+     .search{
+        width: 310px;
+        position: relative;
+
+        .icon{
+            color: var(--color-search-top);
+            position: absolute;
+            top: 30%;
+            left: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 7px 0;
+            padding-left: 40px;
+            border-radius: 10px;
+            background-color: var(--bg-search-top);
+            
+
+            &::placeholder {
+                font-weight: bold;
+                font-size: 13px;
+                color: var(--color-search-top);
+            }
+        }
+    }    
+}
+
+
